@@ -2,6 +2,7 @@
 import './App.css'
 import {motion} from "motion/react"
 import AnimationButton from './components/AnimationButton'
+import FeaturesList from './components/FeaturesList'
 
 function App() {
   
@@ -26,6 +27,8 @@ function App() {
       >Click Me</motion.button>
       <br />
       <AnimationButton >Login</AnimationButton>
+      <br />
+      <FeaturesList/>
     </>
   )
 }
