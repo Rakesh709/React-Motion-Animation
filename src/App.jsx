@@ -3,6 +3,7 @@ import './App.css'
 import {motion} from "motion/react"
 import AnimationButton from './components/AnimationButton'
 import FeaturesList from './components/FeaturesList'
+import DraggableCard from './components/DraggableCard'
 
 function App() {
   
@@ -29,6 +30,9 @@ function App() {
       <AnimationButton >Login</AnimationButton>
       <br />
       <FeaturesList/>
+      <br />
+      <br />
+      <DraggableCard/>
     </>
   )
 }
