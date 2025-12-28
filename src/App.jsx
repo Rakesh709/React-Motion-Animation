@@ -4,6 +4,10 @@ import {motion} from "motion/react"
 import AnimationButton from './components/AnimationButton'
 import FeaturesList from './components/FeaturesList'
 import DraggableCard from './components/DraggableCard'
+import DismissableAlert from './components/DismissableAlert'
+import { StepSwitcher } from './components/StepSwitcher'
+import { CollapsibleList } from './components/CollapsibleList'
+import { LiveBadge } from './components/LiveBadge'
 
 function App() {
   
@@ -33,6 +37,20 @@ function App() {
       <br />
       <br />
       <DraggableCard/>
+      <br />
+      <br />
+      <DismissableAlert/>
+      <br />
+      <br />
+      <StepSwitcher/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <CollapsibleList/>
+      <br />
+      <br />
+      <LiveBadge/>
     </>
   )
 }
